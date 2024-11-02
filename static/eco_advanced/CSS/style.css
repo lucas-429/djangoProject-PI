@@ -1,0 +1,174 @@
+/* static/eco_advanced/style.css */
+
+/* Estilo geral do corpo */
+body {
+    background-color: #97dd97; /* Cor de fundo clara */
+    font-family: 'Arial', sans-serif; /* Fonte padrão */
+    color: #343a40; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #67c167; /* Cor de fundo da navegação */
+    padding: 10px 20px;
+}
+#navbar {
+    background-color: #0e420e;
+}
+nav a {
+    color: #ddda55 !important; /* Cor dos links */
+    margin-right: 15px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+nav a:hover {
+    color: #ffc107 !important; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo do logo */
+.nav-logo {
+    height: 140px; /* Altura do logo */
+    width: auto;
+}
+.navbar-center {
+    text-align: center !important;
+    color: #ddda55 !important; /* Cor amarela */
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+.lema {
+    color: #ddda55; /* Cor amarela */
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration-color: #ddda55;
+}
+
+/* Estilo do container principal */
+.container {
+    min-height: calc(100vh - 60px);
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+/* Estilo do rodapé */
+#footer {
+    background-color: #0e420e; /* Cor de fundo do rodapé */
+    color: #ddda55; /* Cor do texto do rodapé */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo dos links do rodapé */
+footer a {
+    color: #ffc107; /* Cor dos links do rodapé */
+    text-decoration: none;
+}
+
+footer p {
+    color: #ddda55; /* Cor dos links do rodapé ao passar o mouse */
+}
+.home-content {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-content h1 {
+    color: #0e420e; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.home-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.home-content li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-content {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h1 {
+    color: #0e420e; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.about-content {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h1 {
+    color: #0e420e; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.services-content {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-content h1 {
+    color: #0e420e; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.services-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.services-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.services-content li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.services-content li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.service-description {
+    display: none; /* Esconde a descrição por padrão */
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
